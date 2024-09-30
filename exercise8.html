@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #8: Color Picker</title>
+    <style>
+        /* Style for the colors container */
+        #colors {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        /* Each color tile styling */
+        .color-tile {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        /* Style for the selected color display */
+        #selected {
+            width: 150px;
+            height: 50px;
+            border: 2px solid black;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Color Picker</h1>
+<div id="colors"></div>
+<div id="selected">Select a color</div>
+
+<script src="exercise8.js"></script>
+
+</body>
+</html>
+

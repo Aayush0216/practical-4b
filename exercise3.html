@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #3: Changing Images</title>
+    <style>
+        #image {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            object-fit: contain; /* Ensures image fits without distortion */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Choose an image:</h1>
+    <select id="imageSelector">
+        <option value="exercise3_2.png">Image 1</option>
+        <option value="exercise3_2.png">Image 2</option>
+
+    </select>
+
+    <div>
+        <img id="image" src="exercise3.png" alt="No Image"/>
+    </div>
+
+    <script src="exercise3script.js"></script> <!-- Link to the external JavaScript file -->
+
+</body>
+</html>
